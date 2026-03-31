@@ -10,8 +10,8 @@
 };
 
 &trackball {
-    automouse-layer = <4>;
-    scroll-layers = <5>;
+    // automouse-layer = <4>;
+    scroll-layers = <2>;
 
     // arrows {
     //     layers = <3>;
@@ -25,6 +25,17 @@
     //     wait-ms = <5>;
     //     tap-ms = <5>;
     // };
+
+    //scroll {
+    //    layers = <2>;
+    //    bindings =
+    //        <&msc SCRL_RIGHT>,
+    //        <&msc SCRL_LEFT>,
+    //        <&msc SCRL_UP>,
+    //        <&msc SCRL_DOWN>;
+    //    wait-ms = <5>;
+    //    tap-ms = <5>;
+    //};
 };
 
 / {
