@@ -1,41 +1,41 @@
 layout: {zmk_keyboard: roBa}
 layers:
   layer0:
+  - {t: ESC, h: bt}
   - Q
   - W
   - E
   - R
-  - T
   - Y
   - U
   - I
   - O
   - BACKSPACE
+  - TAB
   - A
   - S
   - D
   - F
   - G
-  - TAB
-  - '-'
+  - T
   - H
   - J
   - K
   - L
   - P
+  - LEFT SHIFT
   - Z
   - X
   - C
   - V
   - B
-  - LEFT SHIFT
   - ;
   - N
   - M
   - ','
   - .
   - /
-  - {t: ESC, h: bt}
+  - LCTRL
   - LEFT ALT
   - LEFT WIN
   - layer1
@@ -55,26 +55,26 @@ layers:
   - '8'
   - '9'
   - '0'
+  - {t: ▽, type: trans}
   - HOME
   - END
   - '@'
   - ^
   - \
-  - {t: ▽, type: trans}
   - F7
   - '&mkp MB3'
   - '&mkp MB1'
   - UP ARROW
   - '&mkp MB2'
   - layer2
+  - {t: ▽, type: trans}
   - PRINTSCREEN
   - '['
   - ']'
   - ':'
-  - \
-  - {t: ▽, type: trans}
+  - _
   - F12
-  - ''
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -89,40 +89,40 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB5'
   layer2:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F8
+  - {t: ▽, type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
+  - {t: ▽, type: trans}
   - F9
   - F10
   - F11
-  - /
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - KP 4
   - KP 5
   - KP 6
   - '*'
+  - KP PLUS
   - {t: ▽, type: trans}
-  - '&tog_ls_on'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - {t: '%', type: held}
+  - F5
+  - F6
+  - F7
+  - F8
+  - {type: held}
   - {t: KP 0, h: LEFT SHIFT}
   - KP 1
   - KP 2
   - KP 3
   - .
+  - KP MINUS
   - {t: ▽, type: trans}
-  - '&tog_ls_off'
-  - '['
-  - ']'
-  - '{'
-  - '}'
-  - \
+  - F1
+  - F2
+  - F3
+  - F4
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,53 +131,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '|'
-  EMPTY:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   bt:
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -193,6 +149,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&tog_ls_on'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -200,18 +157,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&tog_ls_off'
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - BT CLR
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
